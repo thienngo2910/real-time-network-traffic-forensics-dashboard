@@ -1,0 +1,96 @@
+{
+  "ground_truth": {
+    "source_file": "synthetic deterministic binary payload",
+    "bytes": 845,
+    "sha256": "1a85d08b3f6c57a6d75a3e17daa7d4da07e944b961313e2f46c51aac9a629b14",
+    "chunk_size": 128,
+    "chunk_count": 7,
+    "scope": "synthetic; not captured from a live network"
+  },
+  "results": [
+    {
+      "scenario": "combined",
+      "frames": 10,
+      "robust_complete": false,
+      "robust_sha256_match": false,
+      "robust_missing": 2,
+      "robust_conflicts": 1,
+      "robust_duplicates": 0,
+      "baseline_sha256_match": false,
+      "baseline_bytes": 896,
+      "robust_bytes": 512
+    },
+    {
+      "scenario": "complete",
+      "frames": 7,
+      "robust_complete": true,
+      "robust_sha256_match": true,
+      "robust_missing": 0,
+      "robust_conflicts": 0,
+      "robust_duplicates": 0,
+      "baseline_sha256_match": true,
+      "baseline_bytes": 845,
+      "robust_bytes": 845
+    },
+    {
+      "scenario": "conflict",
+      "frames": 8,
+      "robust_complete": false,
+      "robust_sha256_match": false,
+      "robust_missing": 0,
+      "robust_conflicts": 1,
+      "robust_duplicates": 0,
+      "baseline_sha256_match": false,
+      "baseline_bytes": 973,
+      "robust_bytes": 717
+    },
+    {
+      "scenario": "duplicate",
+      "frames": 8,
+      "robust_complete": true,
+      "robust_sha256_match": true,
+      "robust_missing": 0,
+      "robust_conflicts": 0,
+      "robust_duplicates": 1,
+      "baseline_sha256_match": false,
+      "baseline_bytes": 973,
+      "robust_bytes": 845
+    },
+    {
+      "scenario": "missing",
+      "frames": 6,
+      "robust_complete": false,
+      "robust_sha256_match": false,
+      "robust_missing": 1,
+      "robust_conflicts": 0,
+      "robust_duplicates": 0,
+      "baseline_sha256_match": false,
+      "baseline_bytes": 717,
+      "robust_bytes": 717
+    },
+    {
+      "scenario": "noise",
+      "frames": 10,
+      "robust_complete": true,
+      "robust_sha256_match": true,
+      "robust_missing": 0,
+      "robust_conflicts": 0,
+      "robust_duplicates": 0,
+      "baseline_sha256_match": true,
+      "baseline_bytes": 845,
+      "robust_bytes": 845
+    },
+    {
+      "scenario": "reordered",
+      "frames": 7,
+      "robust_complete": true,
+      "robust_sha256_match": true,
+      "robust_missing": 0,
+      "robust_conflicts": 0,
+      "robust_duplicates": 0,
+      "baseline_sha256_match": false,
+      "baseline_bytes": 845,
+      "robust_bytes": 845
+    }
+  ]
+}

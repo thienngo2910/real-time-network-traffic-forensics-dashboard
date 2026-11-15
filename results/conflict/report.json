@@ -1,0 +1,63 @@
+{
+  "pcap": "C:\\Users\\ngodi\\Documents\\Codex\\2026-11-15\\referenced-chatgpt-conversation-this-is-an\\datasets\\generated\\conflict.pcap",
+  "recognized_transfers": 1,
+  "ignored_or_non_icfr_ipv4_frames": 0,
+  "transfers": [
+    {
+      "source": "192.168.201.130",
+      "destination": "192.168.201.1",
+      "file_id": 7408,
+      "total_chunks": 7,
+      "observed_frames": 8,
+      "observed_chunk_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "missing_indexes": [],
+      "duplicate_indexes": [],
+      "conflicting_indexes": [
+        1
+      ],
+      "chunk_frames": {
+        "0": [
+          1
+        ],
+        "1": [
+          2,
+          8
+        ],
+        "2": [
+          3
+        ],
+        "3": [
+          4
+        ],
+        "4": [
+          5
+        ],
+        "5": [
+          6
+        ],
+        "6": [
+          7
+        ]
+      },
+      "conflict_frames": {
+        "1": [
+          2,
+          8
+        ]
+      },
+      "complete": false,
+      "output_file": "recovered_192-168-201-130_192-168-201-1_7408.bin",
+      "bytes_reconstructed": 717,
+      "sha256": "91a540870e7d20eb0b0f699a9617a40aa46d3f85b2ebef51642d106766c59828",
+      "note": "SHA-256 is comparable only when the expected source hash is independently known."
+    }
+  ]
+}

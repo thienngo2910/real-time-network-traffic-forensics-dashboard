@@ -1,0 +1,8 @@
+scenario,frames,robust_complete,robust_sha256_match,robust_missing,robust_conflicts,robust_duplicates,baseline_sha256_match,baseline_bytes,robust_bytes
+combined,10,False,False,2,1,0,False,896,512
+complete,7,True,True,0,0,0,True,845,845
+conflict,8,False,False,0,1,0,False,973,717
+duplicate,8,True,True,0,0,1,False,973,845
+missing,6,False,False,1,0,0,False,717,717
+noise,10,True,True,0,0,0,True,845,845
+reordered,7,True,True,0,0,0,False,845,845

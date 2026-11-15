@@ -1,0 +1,8 @@
+{
+  "source_file": "synthetic deterministic binary payload",
+  "bytes": 845,
+  "sha256": "1a85d08b3f6c57a6d75a3e17daa7d4da07e944b961313e2f46c51aac9a629b14",
+  "chunk_size": 128,
+  "chunk_count": 7,
+  "scope": "synthetic; not captured from a live network"
+}
